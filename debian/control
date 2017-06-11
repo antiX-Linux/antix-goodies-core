@@ -1,0 +1,24 @@
+Source: antix-goodies-core
+Section: system
+Priority: optional
+Maintainer: anticapitalista <antix@operamail.com>
+Build-Depends: debhelper (>= 9.20120115)
+Standards-Version: 3.9.4
+Homepage: http://antix.mepis.org
+
+Package: antix-goodies-core
+Architecture: all
+Depends: perl 
+Conflicts: antix-goodies
+Replaces: antix-goodies
+Description: Various useful scripts for antiX.
+ Includes:
+  * fancy-prompts (nine different colorful and interesting prompts)
+  * ps_initrd.sh (initrd packing/unpacking tool)
+  * zram (script to set up zram)
+  * env-info (simple screen information script)
+  * start-t (Display the start time from kernel boot)
+  * boot-log - time boot to desktop
+  * BroadcomStartup - auto-detect and set up correct drivers for broadcom networking
+  * guess-hwclock - Guess whether the hardware clock is set to utc or to localtime
+  * ps_mem.py (RAM usage script)
